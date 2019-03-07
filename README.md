@@ -8,8 +8,7 @@ sudo docker exec -it mysql01 bash
 
 apt-get update
 
-apt-get install wget p7zip-full -y
-apt-get install unzip
+apt-get install wget p7zip-full -y unzip
 
 wget https://archive.org/download/stackexchange/coffee.stackexchange.com.7z
 wget http://www.mysqltutorial.org/wp-content/uploads/2018/03/mysqlsampledatabase.zip
